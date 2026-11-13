@@ -1,0 +1,13 @@
+{
+  "name": "dev-resend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Resend falso para testes locais: aceita a API, não envia nada e mostra o que seria enviado.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.ts"
+  }
+}
